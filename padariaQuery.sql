@@ -76,16 +76,6 @@ foreign key(cnpj_forn) references fornecedor (cnpj_forn),
 foreign key(cod_prod) references produto (cod_prod)
 )default charset = utf8;
 
-create table supervisiona(
-cpf_g varchar(14) not null,
-cpf_e varchar(14) not null,
-
-primary key(cpf_g,cpf_e),
-FOREIGN KEY (cpf_g) REFERENCES funcionario(cpf_fc),
-FOREIGN KEY (cpf_e) REFERENCES funcionario(cpf_fc)
-)default charset = utf8;
-
-
 #----------------------------------------------   POVOAMENTO DE CLIENTE   ----------------------------------------------------------#
 
 
