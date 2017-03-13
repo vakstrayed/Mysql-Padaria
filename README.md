@@ -2,7 +2,7 @@
 
 	O presente documento possui por objetivo realizar a descrição do sistema de banco de dados de uma padaria. Para tanto, apresenta a identificação de entidades e relacionamentos, descrição de aspectos do mundo real e do sistema, formas das consultas e relatórios, além dos modelos ER e relacional E.
 
-Descrição de aspectos do mundo real e do sistema
+# Descrição de aspectos do mundo real e do sistema
 
 Os clientes do banco podem ser pessoas interessadas em efetuar uma compra na padaria. Para se cadastrar no banco os clientes devem apresentar cpf, nome, e-mail e telefone. O banco atribui um código próprio para identificar qualquer um dos seus clientes, sendo este o seu cpf.
 Cada cliente está associado a uma ou mais compra/venda. Cada compra/venda possui um código que a identifica, sua data de ocorrência e uma quantidade. Além de existir um fornecedor que possui um CNPJ, nome e endereço. Têm-se também a relação de fornecimento, que associa fornecedores a produtos. Além de uma relação que especifica a quantidade de produtos que um funcionário produziu em um determinado mês. Existe a relação em que um funcionário possua ou não um supervisor.
