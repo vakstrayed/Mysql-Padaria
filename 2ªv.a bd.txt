@@ -1,0 +1,11 @@
+alter table padaria.cliente add column Endereco varchar (60) not null;
+
+
+#insert into fornecedor (nome_forn,cnpj_forn,endereco_forn) values ('Quero Mais','10.076.124/0001-12','av mascarenha de morais');
+
+
+#select compra_venda.cod_prod,tipo_prod,nome_prod,valor_prod from padaria.compra_venda inner join padaria.produto where produto.cod_prod = compra_venda.cod_prod and compra_venda.cpf_cl = '444.236.900-13';
+
+
+
+#select cliente.nome_cl from padaria.compra_venda inner join padaria.cliente where compra_venda.cpf_fc = '201.585.183-65' and compra_venda.cpf_cl = cliente.cpf_cl;
